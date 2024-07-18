@@ -37,7 +37,7 @@ I coninued updating this script for Northgard game and now after it was signific
 Of course original creator not to be forgotten.
 
 Supported formats:
-- `RES.PAK` (script: `./northgard_res_pak.bms`) - script to (un/)pack file with most of the game's data, including textures, models, sounds, and, most notably, data.cdb ((`steamapps\common\Northgard\res.pak`)
+- `RES.PAK` (script: `./northgard_res_pak.bms`) - script to (un/)pack file with most of the game's data, including textures, models, sounds, and, most notably, data.cdb (`steamapps\common\Northgard\res.pak`)
 
 Unsupported formats:
 - editor resources (`steamapps\common\Northgard\NGEditor\resources.pak`, `nw_100_percent.pak` and `nw_200_percent.pak`) - all three have ID string of `05 00 00 00 01 00 00 00` and probably are compressed.
