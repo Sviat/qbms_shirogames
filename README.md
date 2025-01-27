@@ -47,4 +47,4 @@ Additional info is always welcome.
 # Copyleft
 Author: Sanctus-Susanin, original by: Allen.
 
-You can do with this codebase whatever your want IF you preserve names of all previous authors and link to this repository.
+You can do with this codebase whatever your want IF you preserve names of all previous authors and link to this repository: https://github.com/Sviat/qbms_shirogames
