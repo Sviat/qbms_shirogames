@@ -124,7 +124,7 @@ In this chapter we analyze all acquired pieces of information before starting pr
 ![File index: donor record](assets/03_respak_index_donor.png)
 Let's inspect file index closely paying more attention to the record right before `CDB`. It looks like poor ``coordByCountry.json.json`` file ended up there. It is no surprise, knowing order of sorting and traversal. What is most important for us, it is absolutely useless for game session and we can safely cut piece of it's binary meat for the needs of growing `CDB`.
 
-There probably is better or less damaging way, but I find it super ironic, that file which has UNNECESSARY BUT USED double extension will donate it to the file that now has all NECESSARY BUT UNUSED data. My salute to whoever named it like this. Without that, I would feel completely bad doing we about to do.
+There probably is better or less damaging way, but I find it super ironic, that file which has UNNECESSARY BUT USED double extension will donate it to the file that now has all NECESSARY BUT UNUSED data. My salute to whoever named it like this. Without that, I would feel completely bad doing what we about to do.
 
 One last note on offset calculation. Inside each record, offset is referring to the offset since **the beginning of raw data section**. So if we want to point to the file raw data, we need to add header size to it. But we dont want to, because we already know this address precisely! What we need is exactly the inverse. We need to take `MEMO: CDBest Data Address` and deduct `MEMO: Header Size Value` from it (if you not sure how to substract numbers, use `Calculator` in `Programmer mode`), to get offset for the file index record. Save this as `MEMO: CDBest Record Offset Value`.
 
