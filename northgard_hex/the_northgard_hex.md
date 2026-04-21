@@ -12,7 +12,7 @@ Looks like Northgard is **both** technologically ready **and** dead for competet
 Usually this goes [to the chapter below](#motivation), but I will need all these fancy terms and abbreviations there, so lets define them earlier:
 - 5-10 GB's of disk space, SSD preferably
 - Get [Northgard](https://store.steampowered.com/app/466560/Northgard_Definitive_Edition/) game files, especially ``res.client.pak`` which holds majority of game files. For short I'll call it `ResPak` from now on.
-- Get any Text Editor [VS Code](https://code.visualstudio.com/)
+- Get any Text Editor, like [VS Code](https://code.visualstudio.com/)
 - Get any Hex Editor (yes, we going that deep), preferably something free and using browser so you dont need to even download it, like [HexEdit](https://hexed.it/)
 - Get [QuickBMS](https://aluigi.altervista.org/quickbms.htm) tool a.k.a `QBMS`
 - Couple of hours without distraction (hardest to obtain)
